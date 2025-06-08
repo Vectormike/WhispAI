@@ -18,7 +18,7 @@ class LLMConfig(BaseModel):
 def get_llm_config() -> LLMConfig:
     load_dotenv()
     return LLMConfig(
-        model_name=os.getenv("LLM_MODEL_NAME", "llama3"),
-        base_url=os.getenv("LLM_BASE_URL", "http://localhost:11434"),
+        model_name=os.getenv("LLM_MODEL_NAME"),
+        base_url=os.getenv("OLLAMA_BASE_URL"),
     )
 
