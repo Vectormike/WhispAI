@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.api.routes.whatsapp import router as whatsapp_router
+from src.api.v1.endpoints.whatsapp import router as whatsapp_router
 import os
 from dotenv import load_dotenv
 
