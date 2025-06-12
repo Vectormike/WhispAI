@@ -11,6 +11,13 @@ passlib==1.7.4
 bcrypt==4.0.1
 python-multipart==0.0.6
 
+# ML/LLM dependencies
+torch>=2.0.0
+transformers>=4.37.0
+accelerate>=0.27.0
+sentencepiece>=0.1.99
+protobuf>=4.22.1
+safetensors>=0.3.1
 
 langchain~=0.3.25
 h11~=0.14.0
@@ -50,7 +57,6 @@ gitdb~=4.0.12
 numpy~=2.0.2
 pillow~=11.2.1
 attrs~=25.3.0
-protobuf~=6.31.1
 pytz~=2025.2
 toml~=0.10.2
 smmap~=5.0.2
