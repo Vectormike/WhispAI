@@ -47,3 +47,5 @@ htmlcov/
 coverage.xml
 *.cover
 
+.env.backup
+Llama-3.1-8B/
